@@ -1,16 +1,10 @@
 # PMU Turf Read-Only MCP Server
 
-[![CI](https://github.com/your-username/your-repo/actions/workflows/ci.yml/badge.svg)](https://github.com/your-username/your-repo/actions/workflows/ci.yml)
-
 Serveur MCP Python **lecture seule** pour consulter des données turf PMU.
 
-## Installation
+## Quick start
 ```bash
 pip install -r requirements.txt
-```
-
-## Usage
-```bash
 python main.py
 ```
 
@@ -19,12 +13,9 @@ python main.py
 ./run_checks.sh
 ```
 
-## Includes
+## Included
 - MCP server
-- unit tests
+- tests
 - smoke test
 - GitHub Actions CI
 - public entry point `main.py`
-
-## License
-All rights reserved.

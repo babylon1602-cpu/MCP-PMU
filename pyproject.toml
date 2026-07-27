@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pmu-mcp-server"
+version = "0.1.0"
+description = "PMU turf read-only MCP server"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Babylon"}]
+license = {text = "All rights reserved"}
+dependencies = [
+  "mcp",
+  "httpx",
+  "beautifulsoup4"
+]
+
+[project.scripts]
+pmu-mcp-server = "main:main"
